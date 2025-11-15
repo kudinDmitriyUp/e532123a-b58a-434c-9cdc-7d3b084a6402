@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -11,9 +11,9 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { BarChart3, Building, Crown, DollarSign, Home, MapPin, MessageSquare, Phone, Star, TrendingUp, Waves } from "lucide-react";
+import { BarChart3, Building, Crown, DollarSign, MapPin, MessageSquare, Phone, Star, TrendingUp, Waves } from "lucide-react";
 
-export default function Home() {
+export default function MainPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="icon-arrow"
@@ -124,7 +124,7 @@ export default function Home() {
           title="Featured Properties"
           description="Handpicked luxury beachside properties offering the best of Mumbai coastal living"
           tag="Available Now"
-          tagIcon={Home}
+          tagIcon={MapPin}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -166,7 +166,7 @@ export default function Home() {
             {
               id: "starter",
               badge: "First Home",
-              badgeIcon: Home,
+              badgeIcon: MapPin,
               price: "₹2-3 Cr",
               subtitle: "Perfect for young professionals",
               features: [
