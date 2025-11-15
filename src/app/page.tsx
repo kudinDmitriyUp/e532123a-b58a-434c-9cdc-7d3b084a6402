@@ -348,7 +348,6 @@ export default function MainPage() {
               ]
             }
           ]}
-          brandName="Mumbai Beachside Realty"
           copyrightText="© 2025 | Mumbai Beachside Realty - Premium Coastal Properties"
         />
       </div>
